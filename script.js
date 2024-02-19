@@ -18,7 +18,7 @@ for (const seat of allseats){
 
         document.getElementById("available-seat").innerText = parseInt (remaining);
 
-        const value = event.target
+        const value = event
 
         value.classList.add("bg-[#1DD100]")
 
@@ -85,7 +85,7 @@ for (const seat of allseats){
 
 
 
-        
+
 
 
        
@@ -98,6 +98,15 @@ for (const seat of allseats){
 
     })
 }
+
+
+function click(){
+    const show = document.getElementById("show")
+
+    show.classList.remove("hidden")
+}
+
+
 
 
 
