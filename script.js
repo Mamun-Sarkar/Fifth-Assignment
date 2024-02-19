@@ -18,8 +18,7 @@ for (const seat of allseats){
 
         document.getElementById("available-seat").innerText = parseInt (remaining);
 
-        const value = event
-
+        const value = document.getElementById(event)
         value.classList.add("bg-[#1DD100]")
 
         value.classList.add("text-white")
@@ -84,16 +83,10 @@ for (const seat of allseats){
         })
 
 
+        value.classList.add("btn-disabled")
 
-
-
-
-       
 
         
-
-
-
         
 
     })
